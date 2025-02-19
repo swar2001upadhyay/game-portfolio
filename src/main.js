@@ -1,6 +1,6 @@
-import {k} from "./kaboomCtx";
-import {dialogueData, scaleFactor} from "./constant.js";
-import { displayDialogue, setCamScale } from "./utils.js";
+import {k} from "game-portfolio/src/kaboomCtx";
+import {dialogueData, scaleFactor} from "game-portfolio/src/constant.js";
+import { displayDialogue, setCamScale } from "game-portfolio/src/utils.js";
 k.loadSprite("bg", "./Everything is blue.gif");
 k.loadSprite("spritesheet", "./spritesheet.png",{
     sliceX: 39,
