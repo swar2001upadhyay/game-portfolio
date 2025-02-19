@@ -1,7 +1,7 @@
 import {k} from "./kaboomCtx";
 import {dialogueData, scaleFactor} from "./constant.js";
 import { displayDialogue, setCamScale } from "./utils.js";
-k.loadSprite("bg", "./Everything is blue.png");
+k.loadSprite("bg", "./sky.jpg");
 k.loadSprite("spritesheet", "./spritesheet.png",{
     sliceX: 39,
     sliceY: 31,
